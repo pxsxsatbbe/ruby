@@ -1,5 +1,4 @@
 class CashMachine
-
   def initialize
     @balance = 100.0
     if File.exist?("balance.txt")
